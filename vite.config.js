@@ -8,7 +8,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   // base: '' 路徑更改 (dist 資料夾)
   // vue router 情況， base:''/Server/  較建議
-  base: '/',
+  base: '/vite-sample/',
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
